@@ -11,6 +11,8 @@ public class launchingBrowser {
 
         //create a WebDriver instance
         WebDriver driver = new ChromeDriver();
+
+
         // use the get() function to open up the required website
         driver.get("https://www.google.com/");
 
